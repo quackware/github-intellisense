@@ -1,0 +1,5 @@
+{
+  "name": "@quackware/github-intellisense",
+  "description": "Deno intellisense server for GitHub repositories",
+  "version": "0.0.1"
+}
