@@ -1,7 +1,7 @@
 # @quackware/github-intellisense
 
-Deno intellisense server for GitHub repositories
+Deno intellisense server for GitHub repositories. This provides auto completion for imports in VSCode based on the index generated at [index.json](./index.json)
 
-## TODO
+## Deployment
 
-- [ ] GitHub has 10 req/min rate limit for repo search so we likely will need to build our own search index rather than hitting their api
+This is deployed to https://github-intellisense.quack.rest using [Deno Deploy](https://deno.com/deploy).
