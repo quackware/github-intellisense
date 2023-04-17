@@ -1,7 +1,8 @@
 {
   "tasks": {
     "ci": "deno test -A --lock=deno.lock",
-    "write": "deno test -A -r --lock=deno.lock --lock-write"
+    "write": "deno test -A -r --lock=deno.lock --lock-write",
+    "deploy": "./tasks/deploy.ts"
   },
   "lint": {
     "rules": {

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/registry-completions.v2.json",
+  "version": 2,
+  "registries": [
+    {
+      "schema": "/:repository?",
+      "variables": [
+        {
+          "key": "repository",
+          "documentation": "/documentation/${repository}",
+          "url": "/completions/${repository}"
+        }
+      ]
+    },
+    {
+      "schema": "/:repository/:path*",
+      "variables": [
+        {
+          "key": "repository",
+          "documentation": "/documentation/${repository}",
+          "url": "/completions/${repository}"
+        },
+        {
+          "key": "path",
+          "documentation": "/documentation/${repository}/${path}",
+          "url": "/completions/${repository}/${path}"
+        }
+      ]
+    }
+  ]
+}

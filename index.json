@@ -1,0 +1,1242 @@
+{
+  "augments": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "71"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "global.d.ts",
+        "size": "85"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "24"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "126"
+      },
+      {
+        "type": "directory",
+        "name": "types",
+        "size": "128",
+        "contents": [
+          {
+            "type": "file",
+            "name": "fetch.d.ts",
+            "size": "488"
+          },
+          {
+            "type": "file",
+            "name": "json.d.ts",
+            "size": "1.3K"
+          }
+        ]
+      }
+    ],
+    "documentation": "# @quackware/augments\n\nGlobal augments for Deno api, use with caution!\n"
+  },
+  "cli": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "37"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "help.ts",
+        "size": "67"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "92"
+      },
+      {
+        "type": "file",
+        "name": "repl.ts",
+        "size": "126"
+      }
+    ],
+    "documentation": "# @quackware/cli\n\nCommand Line Stuff\n"
+  },
+  "config": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "69"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "97K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "281"
+      },
+      {
+        "type": "file",
+        "name": "load.ts",
+        "size": "1.4K"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "124"
+      },
+      {
+        "type": "file",
+        "name": "ssm-params.ts",
+        "size": "1.0K"
+      },
+      {
+        "type": "file",
+        "name": "ssm.ts",
+        "size": "4.3K"
+      }
+    ],
+    "documentation": "# @quackware/config\n\nConfiguration utilities built on top of AWS SSM\n"
+  },
+  "doc": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "42"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "97"
+      },
+      {
+        "type": "directory",
+        "name": "src",
+        "size": "96",
+        "contents": [
+          {
+            "type": "directory",
+            "name": "deno",
+            "size": "160",
+            "contents": [
+              {
+                "type": "file",
+                "name": "deno-doc.ts",
+                "size": "142"
+              },
+              {
+                "type": "file",
+                "name": "mod.ts",
+                "size": "670"
+              },
+              {
+                "type": "file",
+                "name": "visitor.ts",
+                "size": "169"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documentation": "# @quackware/doc\n\nAutomatic Documentation\n"
+  },
+  "env": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "40"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "4.8K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "detect-global.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "detect.ts",
+        "size": "1.9K"
+      },
+      {
+        "type": "file",
+        "name": "envs.ts",
+        "size": "310"
+      },
+      {
+        "type": "file",
+        "name": "get.ts",
+        "size": "725"
+      },
+      {
+        "type": "file",
+        "name": "keys.ts",
+        "size": "329"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "95"
+      }
+    ],
+    "documentation": "# @quackware/env\n\nEnvironment Utilities\n"
+  },
+  "error": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "59"
+      },
+      {
+        "type": "file",
+        "name": "caller.ts",
+        "size": "520"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "4.8K"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "69"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "114"
+      },
+      {
+        "type": "file",
+        "name": "quack-error.ts",
+        "size": "1.7K"
+      },
+      {
+        "type": "file",
+        "name": "types.d.ts",
+        "size": "122"
+      },
+      {
+        "type": "file",
+        "name": "value-errors.ts",
+        "size": "1.4K"
+      }
+    ],
+    "documentation": "# @quackware/error\n\nCustom Error class and error utilities\n"
+  },
+  "fetchR": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "198"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "105"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "139"
+      },
+      {
+        "type": "file",
+        "name": "retry.ts",
+        "size": "3.2K"
+      },
+      {
+        "type": "file",
+        "name": "types.ts",
+        "size": "0"
+      }
+    ],
+    "documentation": "# @quackware/fetchR\n\nExtension for the fetch api to support retry and backoff logic\n\n## Overview\n\nThis is built on top of the excellent [cockatiel](https://github.com/connor4312/cockatiel) library.\n"
+  },
+  "fs": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "39"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "6.1K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "126"
+      },
+      {
+        "type": "file",
+        "name": "file-name.ts",
+        "size": "131"
+      },
+      {
+        "type": "file",
+        "name": "file-path.ts",
+        "size": "665"
+      },
+      {
+        "type": "file",
+        "name": "file-writer.ts",
+        "size": "1.9K"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "66"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "94"
+      }
+    ],
+    "documentation": "# @quackware/fs\n\nFile System Utilities\n"
+  },
+  "github": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "57"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "1.2K"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "112"
+      },
+      {
+        "type": "directory",
+        "name": "src",
+        "size": "448",
+        "contents": [
+          {
+            "type": "file",
+            "name": "check-runs.ts",
+            "size": "928"
+          },
+          {
+            "type": "file",
+            "name": "get-token.ts",
+            "size": "1.5K"
+          },
+          {
+            "type": "file",
+            "name": "github-loader.ts",
+            "size": "700"
+          },
+          {
+            "type": "file",
+            "name": "github-project.ts",
+            "size": "976"
+          },
+          {
+            "type": "file",
+            "name": "github-provider.ts",
+            "size": "1.9K"
+          },
+          {
+            "type": "file",
+            "name": "github-service.ts",
+            "size": "2.1K"
+          },
+          {
+            "type": "file",
+            "name": "issues.ts",
+            "size": "1.7K"
+          },
+          {
+            "type": "file",
+            "name": "octokit-token.ts",
+            "size": "918"
+          },
+          {
+            "type": "file",
+            "name": "repo-file-lister.ts",
+            "size": "3.6K"
+          },
+          {
+            "type": "file",
+            "name": "repo-lister.ts",
+            "size": "3.6K"
+          },
+          {
+            "type": "file",
+            "name": "repos.ts",
+            "size": "2.7K"
+          },
+          {
+            "type": "file",
+            "name": "types.ts",
+            "size": "384"
+          }
+        ]
+      }
+    ],
+    "documentation": "# @quackware/github\n\nHelper functions for the GitHub Api\n"
+  },
+  "github-intellisense": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "231"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "135K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "390"
+      },
+      {
+        "type": "file",
+        "name": "index.json",
+        "size": "27K"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "138"
+      },
+      {
+        "type": "directory",
+        "name": "public",
+        "size": "128",
+        "contents": [
+          {
+            "type": "file",
+            "name": "deno-import-intellisense.json",
+            "size": "786"
+          },
+          {
+            "type": "file",
+            "name": "favicon.ico",
+            "size": "15K"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "server.ts",
+        "size": "690"
+      },
+      {
+        "type": "directory",
+        "name": "src",
+        "size": "128",
+        "contents": [
+          {
+            "type": "file",
+            "name": "api.ts",
+            "size": "3.5K"
+          },
+          {
+            "type": "file",
+            "name": "types.ts",
+            "size": "782"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "tasks",
+        "size": "160",
+        "contents": [
+          {
+            "type": "file",
+            "name": "deploy.ts",
+            "size": "701"
+          },
+          {
+            "type": "file",
+            "name": "deps.ts",
+            "size": "59"
+          },
+          {
+            "type": "file",
+            "name": "gen-file-index.ts",
+            "size": "958"
+          }
+        ]
+      }
+    ],
+    "documentation": "# @quackware/github-intellisense\n\nDeno intellisense server for GitHub repositories\n\n## TODO\n\n- [ ] GitHub has 10 req/min rate limit for repo search so we likely will need to build our own search index rather than hitting their api\n"
+  },
+  "graph": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "73"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "32"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "128"
+      }
+    ],
+    "documentation": "# @quackware/graph\n\nGraph functionality utilizing the Graphology library\n"
+  },
+  "guards": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "39"
+      },
+      {
+        "type": "file",
+        "name": "array.ts",
+        "size": "463"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "4.8K"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "86"
+      },
+      {
+        "type": "file",
+        "name": "object.ts",
+        "size": "2.2K"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "94"
+      },
+      {
+        "type": "file",
+        "name": "string.ts",
+        "size": "645"
+      }
+    ],
+    "documentation": "# @quackware/guards\n\nUseful Typeguards\n"
+  },
+  "healthcheck": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "56"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "54"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "111"
+      },
+      {
+        "type": "directory",
+        "name": "src",
+        "size": "256",
+        "contents": [
+          {
+            "type": "file",
+            "name": "base.ts",
+            "size": "3.9K"
+          },
+          {
+            "type": "file",
+            "name": "health-check-error.ts",
+            "size": "316"
+          },
+          {
+            "type": "file",
+            "name": "http.ts",
+            "size": "1.5K"
+          },
+          {
+            "type": "file",
+            "name": "shell.ts",
+            "size": "696"
+          },
+          {
+            "type": "file",
+            "name": "socket.ts",
+            "size": "1.3K"
+          },
+          {
+            "type": "file",
+            "name": "types.ts",
+            "size": "502"
+          }
+        ]
+      }
+    ],
+    "documentation": "# @quackware/healthcheck\n\nStandalone Healthcheck Driver\n"
+  },
+  "json": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "53"
+      },
+      {
+        "type": "file",
+        "name": "canon.ts",
+        "size": "2.2K"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "31K"
+      },
+      {
+        "type": "file",
+        "name": "jsonc.ts",
+        "size": "60"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "108"
+      },
+      {
+        "type": "file",
+        "name": "types.ts",
+        "size": "824"
+      }
+    ],
+    "documentation": "# @quackware/json\n\nCore JSON types and functionality\n"
+  },
+  "json-schema": {
+    "items": [
+      {
+        "type": "file",
+        "name": "2020-12.ts",
+        "size": "55K"
+      },
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "102"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "30"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "157"
+      },
+      {
+        "type": "file",
+        "name": "typebox.ts",
+        "size": "296"
+      }
+    ],
+    "documentation": "# @quackware/json-schema\n\nJSON Schema types, helpers, and validation functionality powered by TypeBox\n"
+  },
+  "logger": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "42"
+      },
+      {
+        "type": "file",
+        "name": "debug.ts",
+        "size": "3.4K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "97"
+      }
+    ],
+    "documentation": "# @quackware/logger\n\nLogger functionality\n"
+  },
+  "media-type": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "60"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "5.5K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "235"
+      },
+      {
+        "type": "file",
+        "name": "media-type-data.ts",
+        "size": "1.4K"
+      },
+      {
+        "type": "file",
+        "name": "media-type-parameter.ts",
+        "size": "660"
+      },
+      {
+        "type": "file",
+        "name": "media-type.ts",
+        "size": "2.2K"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "114"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "115"
+      }
+    ],
+    "documentation": "# @quackware/media-type\n\nMedia type inference and utilities\n"
+  },
+  "object-store": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "79"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "92K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "563"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "35"
+      },
+      {
+        "type": "file",
+        "name": "object-store.ts",
+        "size": "4.0K"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "134"
+      },
+      {
+        "type": "file",
+        "name": "schema.ts",
+        "size": "657"
+      }
+    ],
+    "documentation": "# @quackware/object-store\n\nA generic interface for S3 compatible object stores\n"
+  },
+  "string": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "91"
+      },
+      {
+        "type": "file",
+        "name": "case-types.ts",
+        "size": "4.8K"
+      },
+      {
+        "type": "file",
+        "name": "case.ts",
+        "size": "4.8K"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "5.1K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "113"
+      },
+      {
+        "type": "file",
+        "name": "extension.ts",
+        "size": "468"
+      },
+      {
+        "type": "file",
+        "name": "interpolate.ts",
+        "size": "1.5K"
+      },
+      {
+        "type": "file",
+        "name": "number-to-string.ts",
+        "size": "412"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "146"
+      },
+      {
+        "type": "file",
+        "name": "parser-error.ts",
+        "size": "159"
+      },
+      {
+        "type": "file",
+        "name": "prefix.ts",
+        "size": "1.3K"
+      },
+      {
+        "type": "file",
+        "name": "replace.ts",
+        "size": "1.3K"
+      },
+      {
+        "type": "file",
+        "name": "split.ts",
+        "size": "1.4K"
+      },
+      {
+        "type": "file",
+        "name": "string-types.ts",
+        "size": "868"
+      },
+      {
+        "type": "file",
+        "name": "suffix.ts",
+        "size": "519"
+      },
+      {
+        "type": "file",
+        "name": "whitespace.ts",
+        "size": "756"
+      }
+    ],
+    "documentation": "# @quackware/string\n\nType safe string utility functions that preserve string literal types\n"
+  },
+  "tagged-templates": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "72"
+      },
+      {
+        "type": "file",
+        "name": "dedent.ts",
+        "size": "1.9K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "127"
+      },
+      {
+        "type": "file",
+        "name": "quote.ts",
+        "size": "488"
+      }
+    ],
+    "documentation": "# @quackware/tagged-templates\n\nUseful tagged template literal functions\n"
+  },
+  "tags": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "36"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "known.ts",
+        "size": "318"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "91"
+      },
+      {
+        "type": "file",
+        "name": "tag.ts",
+        "size": "85"
+      }
+    ],
+    "documentation": "# @quackware/tags\n\nResource Tagging\n"
+  },
+  "tasks": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "38"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "182"
+      },
+      {
+        "type": "file",
+        "name": "new-package.ts",
+        "size": "1.6K"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "93"
+      }
+    ],
+    "documentation": "# @quackware/tasks\n\nUseful repo tasks\n"
+  },
+  "templates": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "39"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "55"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "77"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "93"
+      },
+      {
+        "type": "directory",
+        "name": "repo-package",
+        "size": "352",
+        "contents": [
+          {
+            "type": "file",
+            "name": "README.md",
+            "size": "69"
+          },
+          {
+            "type": "file",
+            "name": "deps.ts",
+            "size": "0"
+          },
+          {
+            "type": "file",
+            "name": "mod.ts",
+            "size": "0"
+          },
+          {
+            "type": "file",
+            "name": "package.json",
+            "size": "124"
+          }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "src",
+        "size": "128",
+        "contents": [
+          {
+            "type": "file",
+            "name": "template-variables.ts",
+            "size": "396"
+          },
+          {
+            "type": "file",
+            "name": "utils.ts",
+            "size": "194"
+          }
+        ]
+      }
+    ],
+    "documentation": "# @quackware/templates\n\nFile Templates\n"
+  },
+  "test-helpers": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "46"
+      },
+      {
+        "type": "file",
+        "name": "ci.ts",
+        "size": "171"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "4.2K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "489"
+      },
+      {
+        "type": "file",
+        "name": "dom.ts",
+        "size": "56"
+      },
+      {
+        "type": "file",
+        "name": "fc.ts",
+        "size": "71"
+      },
+      {
+        "type": "file",
+        "name": "inline-snapshot.ts",
+        "size": "573"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "83"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "101"
+      },
+      {
+        "type": "file",
+        "name": "serializer.ts",
+        "size": "1.3K"
+      },
+      {
+        "type": "file",
+        "name": "sinon.ts",
+        "size": "76"
+      },
+      {
+        "type": "file",
+        "name": "snapshot.ts",
+        "size": "423"
+      }
+    ],
+    "documentation": "# @quackware/test-helpers\n\nBasic test helpers\n"
+  },
+  "types": {
+    "items": [
+      {
+        "type": "file",
+        "name": "README.md",
+        "size": "43"
+      },
+      {
+        "type": "file",
+        "name": "array.ts",
+        "size": "611"
+      },
+      {
+        "type": "file",
+        "name": "class.ts",
+        "size": "607"
+      },
+      {
+        "type": "file",
+        "name": "conditionals.ts",
+        "size": "830"
+      },
+      {
+        "type": "file",
+        "name": "deno.lock",
+        "size": "4.8K"
+      },
+      {
+        "type": "file",
+        "name": "deps.ts",
+        "size": "0"
+      },
+      {
+        "type": "file",
+        "name": "expand.ts",
+        "size": "781"
+      },
+      {
+        "type": "file",
+        "name": "list.ts",
+        "size": "1011"
+      },
+      {
+        "type": "file",
+        "name": "literal-union.ts",
+        "size": "482"
+      },
+      {
+        "type": "file",
+        "name": "mod.ts",
+        "size": "127"
+      },
+      {
+        "type": "file",
+        "name": "package.json",
+        "size": "98"
+      },
+      {
+        "type": "file",
+        "name": "result.ts",
+        "size": "198"
+      },
+      {
+        "type": "file",
+        "name": "split.ts",
+        "size": "1.0K"
+      },
+      {
+        "type": "file",
+        "name": "switch.ts",
+        "size": "652"
+      }
+    ],
+    "documentation": "# @quackware/types\n\nTypes and type helpers\n"
+  }
+}

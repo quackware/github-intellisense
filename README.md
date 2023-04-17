@@ -1,7 +1,7 @@
-<h1 align="center">
-  <a href="https://github.com/quackware/github-intellisense">
-    <code>@quackware/github-intellisense</code>
-  </a>
-</h1>
+# @quackware/github-intellisense
 
-<p align="center">Deno intellisense server for GitHub repositories</p>
+Deno intellisense server for GitHub repositories
+
+## TODO
+
+- [ ] GitHub has 10 req/min rate limit for repo search so we likely will need to build our own search index rather than hitting their api
